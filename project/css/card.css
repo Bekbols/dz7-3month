@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+.person_card {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 80px;
+    width: 230px;
+    height: 250px;
+    color: white;
+}
+#people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.person_photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+h5 {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
